@@ -1,4 +1,4 @@
-package com.hotroso.autopay
+package com.hotroso.autopay.models
 
 data class App(
         val name:String,

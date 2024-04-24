@@ -12,7 +12,9 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import com.hotroso.autopay.common.Constants
 import com.hotroso.autopay.helpers.AutoStartHelper
+import com.hotroso.autopay.utils.NotificationListenerUtil
 
 
 class SettingActivity : AppCompatActivity() {

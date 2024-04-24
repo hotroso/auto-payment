@@ -1,4 +1,6 @@
-package com.hotroso.autopay
+package com.hotroso.autopay.common
+
+import com.hotroso.autopay.models.App
 
 object Constants {
     val UNSUPPORTED_APPS: List<String> = mutableListOf(

@@ -1,4 +1,4 @@
-package com.hotroso.autopay
+package com.hotroso.autopay.utils
 
 import android.app.Activity
 import android.content.ComponentName
@@ -7,6 +7,7 @@ import android.content.pm.PackageManager
 import android.provider.Settings
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
+import com.hotroso.autopay.listeners.NotifyListenerService
 
 class NotificationListenerUtil(private val activity: Activity) {
 

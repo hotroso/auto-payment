@@ -1,7 +1,7 @@
 package com.hotroso.autopay.models
 
 import android.service.notification.StatusBarNotification
-import com.hotroso.autopay.NotificationUtils
+import com.hotroso.autopay.utils.NotificationUtils
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -31,6 +31,7 @@ class XInfo(sbn: StatusBarNotification) {
         msg = NotificationUtils.getMessage(sbn)
         groupKey = sbn.groupKey
         pck = sbn.packageName
+
     }
 
 

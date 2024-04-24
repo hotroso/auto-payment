@@ -1,12 +1,7 @@
-package com.hotroso.autopay
+package com.hotroso.autopay.utils
 
 import android.service.notification.StatusBarNotification
 import android.os.Parcelable
-import android.app.PendingIntent
-import android.text.SpannableString
-import android.util.Log
-import androidx.core.app.NotificationCompat
-import androidx.core.app.RemoteInput
 import java.util.*
 import java.util.stream.Stream
 
