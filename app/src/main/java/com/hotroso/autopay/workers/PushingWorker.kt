@@ -12,8 +12,7 @@ import java.io.OutputStreamWriter
 import java.net.URL
 import javax.net.ssl.HttpsURLConnection
 
-class PushingWorker(private val mContext: Context, workerParameters: WorkerParameters) :
-    Worker(mContext, workerParameters) {
+class PushingWorker(mContext: Context, workerParameters: WorkerParameters) : Worker(mContext, workerParameters) {
     @SuppressLint("RestrictedApi")
     override fun doWork(): Result {
         val json = inputData.getString("xx_data")
