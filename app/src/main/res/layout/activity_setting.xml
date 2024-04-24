@@ -40,6 +40,16 @@
             tools:layout_editor_absoluteX="377dp"
             tools:layout_editor_absoluteY="356dp" />
 
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:onClick="notifyOnLockScreenPermission"
+            android:text="@string/btn_notify_on_lock_screen"
+            tools:layout_editor_absoluteX="377dp"
+            tools:layout_editor_absoluteY="356dp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,7 @@ object Constants {
             "android"
     )
 
+    const val MY_ACTION_ON_REBOOT = "hotroso-auto-payment"
     const val PERMISSION_DIALOG_TITLE = "permission_dialog_title"
     const val PERMISSION_DIALOG_MSG = "permission_dialog_msg"
     const val PERMISSION_DIALOG_DENIED_TITLE = "permission_dialog_denied_title"

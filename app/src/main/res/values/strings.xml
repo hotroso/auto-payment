@@ -218,5 +218,6 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="btn_setting_autorestart">Quyền autostart</string>
+    <string name="btn_notify_on_lock_screen">Notification On Lock Screen</string>
 
 </resources>

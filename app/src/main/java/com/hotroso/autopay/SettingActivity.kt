@@ -48,6 +48,10 @@ class SettingActivity : AppCompatActivity() {
         AutoStartHelper.instance.getAutoStartPermission(applicationContext)
     }
 
+    fun notifyOnLockScreenPermission(v: View) {
+
+    }
+
     @SuppressLint("BatteryLife")
     fun permissionBattery(view: View) {
         val powerManager = applicationContext.getSystemService(Context.POWER_SERVICE) as PowerManager
