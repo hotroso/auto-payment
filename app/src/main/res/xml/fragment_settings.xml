@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory android:title="Troubleshoot">
+
+        <Preference android:title="@string/restart_service"
+                    android:icon="@drawable/ic_baseline_not_started_24"
+                    android:key="@string/pref_notification_listener_permission" />
+
+        <Preference android:title="@string/enable_auto_start_label"
+            android:icon="@drawable/ic_baseline_not_started_24"
+            android:key="@string/pref_auto_start_permission" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Feedback">
+
+        <Preference android:title="Rate our application"
+            android:icon="@drawable/ic_baseline_star_24" >
+            <intent android:action="android.intent.action.VIEW"
+                android:data="market://details?id=com.matrix.autoreply" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
