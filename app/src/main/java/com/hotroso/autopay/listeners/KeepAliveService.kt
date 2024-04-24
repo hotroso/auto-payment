@@ -18,6 +18,7 @@ import com.hotroso.autopay.SettingActivity
 import com.hotroso.autopay.common.Constants
 
 class KeepAliveService : Service() {
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate() {
         Log.d("DEBUG", "KeepAliveService onCreate")
         super.onCreate()
